@@ -15,10 +15,15 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    text-align: center;
+    color: #3498db; 
+    margin-top: 10px;
+}
+
 body {
     background: linear-gradient(to bottom, #3498db, #8e44ad);
 }
-
 
 main {
     display: grid;
@@ -27,7 +32,6 @@ main {
     margin: 20px auto; 
     max-width: 1200px; 
 }
-
 
 .image-container {
     display: flex;
@@ -41,12 +45,11 @@ article {
     padding: 10px;
     box-shadow: 0px 0px 1px #000;
     background-color: #f5f5f5; 
-    margin: 10px; 
+    margin: 10px;
+    transition: transform 0.3s;
 }
 
-h2 {
-    text-align: center;
-    color: #3498db; 
-    margin-top: 10px;
+article:hover {
+    transform: scale(1.1); 
 }
 
